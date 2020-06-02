@@ -10,7 +10,7 @@
 
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/etName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -18,7 +18,7 @@
         tools:text="Nama" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/etNim"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -29,10 +29,10 @@
         tools:text="NIM" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Submit"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="121dp"
         tools:ignore="MissingConstraints" />

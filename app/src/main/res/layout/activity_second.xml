@@ -10,12 +10,26 @@
     tools:context="com.deasunara.hellokotlin.secondActivity">
 
     <TextView
-        android:id="@+id/resultTv"
+        android:id="@+id/resultName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#000"
+        android:textColor="@android:color/holo_green_dark"
         android:textSize="30sp"
         android:textStyle="bold"
+        android:text="nama"
+        android:textAlignment="center"
+
+        />
+
+    <TextView
+        android:id="@+id/resultNim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Nim"
+        android:textAlignment="center"
         />
 
 </LinearLayout>
